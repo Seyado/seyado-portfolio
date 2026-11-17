@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Data Analyst portfolio template highlighting projects, analytics skills, and contact information."
+    />
+    <title>Data Analyst Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container nav-wrap">
+        <a href="#home" class="logo">Saidi<span> Tsuma</span></a>
+        <nav class="main-nav" aria-label="Main navigation">
+          <a href="#about">About</a>
+          <a href="#education">Education</a>
+          <a href="#projects">Projects</a>
+          <a href="#skills">Skills</a>
+          <a href="#contact">Contact</a>
+        </nav>
+        <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </header>
+
+    <main id="home">
+      <section class="hero">
+        <div class="container hero-grid">
+          <div class="hero-copy">
+            <p class="eyebrow">Hello, I am</p>
+            <h1>
+              <span class="highlight">SAIDI TSUMA</span><br />
+              Data Analyst
+            </h1>
+            <p class="lead">
+              I have a degree in Community Resources and programming skills, and I’m
+              developing my data analysis portfolio with Python.
+            </p>
+            <div class="cta-row">
+              <a class="btn btn-primary" href="#projects">View Projects</a>
+              <a class="btn btn-secondary" href="#contact">Hire Me</a>
+            </div>
+          </div>
+
+          <div class="hero-panel" aria-label="Decorative data visualization">
+            <div class="panel-card glass">
+              <div class="mini-topbar">
+                <span class="dot red"></span>
+                <span class="dot yellow"></span>
+                <span class="dot green"></span>
+              </div>
+              <div class="metric-row">
+                <div>
+                  <small>Data analysis</small>
+                  <strong>Python</strong>
+                </div>
+              </div>
+              <div class="chart-bars" aria-hidden="true">
+                <span style="height: 45%"></span>
+                <span style="height: 68%"></span>
+                <span style="height: 59%"></span>
+                <span style="height: 80%"></span>
+                <span style="height: 96%"></span>
+                <span style="height: 75%"></span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="about" class="section">
+        <div class="container about-grid">
+          <div class="section-heading">
+            <p class="eyebrow">About me</p>
+            <h2>Combining community knowledge with programming and data.</h2>
+          </div>
+          <div class="about-copy">
+            <p>
+              I have a degree in Community Resources and programming skills, including
+              Python. I’m interested in using data analysis to find useful insights.
+            </p>
+            <p>
+              I’m currently building my portfolio and will add project examples as
+              they’re ready.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section id="education" class="section alt">
+        <div class="container">
+          <div class="section-heading centered">
+            <p class="eyebrow">Education</p>
+            <h2>Academic background</h2>
+          </div>
+          <div class="info-card">
+            <h3>Degree in Community Resources</h3>
+            <p>Academic background</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="projects" class="section">
+        <div class="container">
+          <div class="section-heading centered">
+            <p class="eyebrow">Featured work</p>
+            <h2>Recent projects</h2>
+          </div>
+          <div class="projects-coming-soon">
+            <h3>Project highlights coming soon</h3>
+            <p>
+              I’m preparing project examples to share here. Check back soon for
+              practical data analysis work and insights.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section id="skills" class="section alt">
+        <div class="container">
+          <div class="section-heading">
+            <p class="eyebrow">Skills</p>
+            <h2>Tools and expertise</h2>
+          </div>
+          <div class="skills-wrap">
+            <div class="skill-group">
+              <h3>Analytics</h3>
+              <div class="chips">
+                <span>Python</span>
+                <span>Programming</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="section contact-section">
+        <div class="container contact-box">
+          <div>
+            <p class="eyebrow">Contact</p>
+            <h2>Let’s work together.</h2>
+          </div>
+          <div class="contact-actions">
+            <a class="btn btn-primary" href="mailto:saidijumah@gmail.com">saidijumah@gmail.com</a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-wrap">
+        <p>© <span id="year"></span> Saidi Tsuma. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
